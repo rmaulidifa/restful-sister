@@ -32,6 +32,8 @@ class Database{
         unset($id_obat, $data);
     }
 
+
+    //tes
     public function tampil_pasien($id_pasien)
     {
         $query = $this->conn->prepare("SELECT id_pasien, id_obat, nama_pasien from pasien where id_pasien=?");
