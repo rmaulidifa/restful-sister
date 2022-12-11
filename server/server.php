@@ -2,7 +2,7 @@
     error_reporting(1);
     include "Database.php";
     $abc = new Database();
-
+//tessss
     if(isset($_SERVER['HTTP_ORIGIN'])){
         header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
         header('Acess-Control-Allow-Credentials: true');
